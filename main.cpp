@@ -1,4 +1,6 @@
 
+using LoadResource_Proto = __int64(*)(__int64 a1, const std::string & uri);
+
 auto injector() -> void {
 
     LoadResource_Proto LoadResource = (LoadResource_Proto)(GetModuleHandleW(L"citizen-resources-client.dll") + 0x24540);
